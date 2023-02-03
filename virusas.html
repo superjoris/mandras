@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="virusas.css">
+    <style>
+        html, body {
+            width: 1400px;
+            height: 800px;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(69, 123, 124);
+        }
+        #container {
+            width: inherit;
+            height: inherit;
+            margin: 0;
+            padding: 0;
+            background-color: pink;
+        }
+        h1 {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="img1">
+        <img src="https://static.wikia.nocookie.net/joke-battles/images/d/d4/What-is-a-computer-virus-a82f9491ad3644b89446d45233b57761.jpg/revision/latest?cb=20201129021158" alt="virusas"
+        width="1450"
+        height="800"/>
+    </div>
+
+      <title>Automatic Popup</title>
+      <!--Google Fonts-->
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+      <!--Stylesheets-->
+      <style media="screen">
+     
+      </style>
+  </head>
+  <body>
+      <div class="popup">
+          <button id="close">&times;</button>
+          <h2>BOO</h2>
+          <p>
+              bro, pasigavai virusa, lol
+          </p>
+          <a href="index.html">grizk atgal</a>
+      </div>
+      <!--Script-->
+      <script type="text/javascript">
+  window.addEventListener("load", function(){
+      setTimeout(
+          function open(event){
+              document.querySelector(".popup").style.display = "block";
+          },
+          500
+      )
+  });
+  
+  
+  document.querySelector("#close").addEventListener("click", function(){
+      document.querySelector(".popup").style.display = "none";
+  });
+      </script>
+      
+</body>
+</html>
